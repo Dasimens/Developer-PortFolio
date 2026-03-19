@@ -28,3 +28,12 @@ function switchImage() {
 }
 
 setInterval(switchImage, 5000)
+
+// Banner ----------------------------
+
+const bannerContent = document.getElementById('bannerContent')
+let messageHTML = '<span class="contact-message">Contact us at yomi.olatunji@dasimenstechltd.com - We\' re here to help!</span>';
+let repeatedMessage = messageHTML.repeat(10);
+
+// Set the RepeatedMessage as the Content..
+bannerContent.innerHTML = repeatedMessage + repeatedMessage;// 
