@@ -1,20 +1,20 @@
 
-// // Navigation
-// const nav = document.getElementById('nav');
-// const menuIcon = document.querySelector('#menu-animation');
+// Navigation
+const nav = document.getElementById('nav');
+const menuIcon = document.querySelector('#menu-animation');
 
-// function toggleMenu() {
-//     nav.classList.toggle('active');
-//     menuIcon.classList.toggle('active')
+function toggleMenu() {
+    nav.classList.toggle('active');
+    menuIcon.classList.toggle('active')
 
-// }
+}
 
 
-// function hideMenu() {
-//     nav.classList.remove('active');
-//     menuIcon.classList.remove('active')
+function hideMenu() {
+    nav.classList.remove('active');
+    menuIcon.classList.remove('active')
 
-// }
+}
 
 // SlideShow-------------------------------------------------------------------------------
 
